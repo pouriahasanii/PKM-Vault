@@ -1,0 +1,5 @@
+{:preferred-format "Markdown"
+ :journal/page-title-format "yyyy-MM-dd"
+ :journal/file-name-format "yyyy_MM_dd"
+ :feature/enable-whiteboards? true
+ :ui/show-brackets? true}

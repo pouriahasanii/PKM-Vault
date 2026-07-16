@@ -1,0 +1,28 @@
+# Secrets
+.env
+*.env
+!.env.example
+*TOKEN*.md
+
+# Runtime
+.venv/
+__pycache__/
+*.py[cod]
+*.log
+*.sqlite*
+
+# Per-device UI state
+.obsidian/workspace.json
+.obsidian/workspace-mobile.json
+logseq/bak/
+logseq/.recycle/
+.trash/
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Binary assets are synced/backed up separately, not versioned by Git
+assets/**
+!assets/README.md
